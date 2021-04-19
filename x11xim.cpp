@@ -181,7 +181,7 @@ XMapWindow(d, w);
                 printf("z = %d, i = %d\n", z, i); 
 
               } else { 
-              SendEvent(d, w);    
+                SendEvent(d, w);    
               } 
           
           if(sym == XK_Return){
