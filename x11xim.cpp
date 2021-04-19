@@ -163,7 +163,6 @@ XMapWindow(d, w);
                 bufStr[i++] = bufChar[0];
                 bufText[m++] = bufChar[0];
                 
-                //XClearWindow(d, w);
                 printf("buf = %s\n", bufStr);
 
           if(sym == XK_BackSpace ) {    
