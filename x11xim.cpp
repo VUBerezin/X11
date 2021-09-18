@@ -53,7 +53,7 @@ vector<int> createVecInt(int i){
 int deleteInt(vector<int> *vecInt, int z){
     auto it = vecInt->begin();
       int x = (it)[z];
-      printf("SIZE i = %d\n", x);
+      printf("i = %d\n", x);
       return x;
 }
 
@@ -235,7 +235,6 @@ XMapWindow(d, w);
    delete [] bufDel;
    delete [] bufTemp;
    delete [] bufStr;
-   delete [] bufSave;
 
    return 0;
 }
